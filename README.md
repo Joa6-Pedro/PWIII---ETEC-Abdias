@@ -1,2 +1,2 @@
 # PWIII---ETEC-Abdias
-Repositório do Péricles
+Repositório usado nas aula de PWIII administradas pelo professor Éricles
