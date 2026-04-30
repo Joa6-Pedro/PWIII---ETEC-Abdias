@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Pisca Games</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+
+        <h1 class="title">Pisca Games</h1>
+
+        <div class="container" id="telaLogin">
+            <div id="loginInputs">
+                <h1>Login</h1>
+                <input type="text" name="loginBox" id="loginBox" placeholder="Digite seu login">
+
+                <h1>Senha</h1>
+                <input type="password" id="loginPasswordBox" placeholder="Digite sua senha">
+
+                <button type="button" onclick="verificarLogin()" class="submitBtn">Submit</button>
+
+            </div>
+
+            <p class="label">Novo por aqui?</p>
+            <button type="button" onclick="goSignIn()" id="goSignIn">Registrar-se</button>
+        
+        </div>
+        <div class='container' id='Debug'>
+            <button type="button" onclick="viewGames()">Ver Games</button>
+        </div>
+                            
+        <script src="script.js"></script>
+    </body>
+    
+    </html>
+    

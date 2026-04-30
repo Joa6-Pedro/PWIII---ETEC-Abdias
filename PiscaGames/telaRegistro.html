@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisca Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container" id="telaSignIn">
+        <div id="signinInputs">
+            <h1 class="label">Email</h1>
+            <input type="email" name="emailBox" id="emailBox" placeholder="Digite seu email">
+
+            <h1 class="label">Login</h1>
+            <input type="text" name="SignInLoginBox" id="SignInLoginBox" placeholder="Digite seu login">
+            
+            <h1 class="label">Senha</h1>
+            <input type="password" name="passwordBox" id="signInpasswordBox" placeholder="Digite sua senha">
+            
+            <h1 class="label">Confime sua senha</h1>
+            <input type="password" name="passwordBox2" id="signInpasswordBox2" placeholder="confirme sua senha">
+
+            <button type="button" onclick="registrar()" class="submitBtn">Registrar-se</button>
+        </div>
+        
+        <p id="label">Já tem uma conta?</p>
+        <button type="button" onclick="goLogin()" id="goLogin">Fazer Login</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
