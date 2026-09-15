@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Pisca Games</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container" id="telaLogin">
+            <h1 id="title">Pisca Games</h1>        
+            <form>
+                <div class="socialIcons">
+                    <a href="#" class><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="inputContainer">
+
+                    <label for="loginBox">Login</label>
+                    <input type="text" name="loginBox" id="loginBox" placeholder="Digite seu login">
+                    
+                    <label for="loginPasswordBox"></label>
+                    <input type="password" id="loginPasswordBox" placeholder="Digite sua senha">
+                    
+                    <button type="button" onclick="verificarLogin()" class="submitBtn">Submit</button>
+                </div>
+
+            </form>
+            <div class="goSignIn-Container">
+    
+                <p class="label">Novo por aqui?</p>
+                <button type="button" onclick="goSignIn()" id="goSignIn">Registrar-se</button>
+    
+            </div>
+
+        </div>
+    </main>
+                            
+        <script src="js/script.js"></script>
+    </body>
+    
+    </html>
+    
